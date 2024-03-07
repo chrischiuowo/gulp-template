@@ -1,0 +1,15 @@
+extends layouts/_base
+
+block head
+  title About Page
+
+block bodyContent
+  .welcome
+    include components/_title.pug
+    +title('About Page !')
+
+    .item
+      a(href='./index.html') Go Back
+
+block bodyEnd
+  script(src='./js/about/index.js')

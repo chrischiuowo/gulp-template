@@ -1,0 +1,15 @@
+extends layouts/_base
+
+block head
+  title Gulp4 Template
+
+block bodyContent
+  .welcome
+    include components/_title.pug
+    +title('Welcome !')
+
+    .item
+      p You have the ability to utilize Pug, Scss, and TypeScript in this project.
+
+block bodyEnd
+  script(src='./js/index.js')

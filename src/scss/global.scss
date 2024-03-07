@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary break-words;
+}
+
+a {
+  @apply underline;
+}
+
+.welcome {
+  @apply flex flex-col items-center justify-center text-center;
+  @apply space-y-8 mt-14 mx-auto max-w-[400px];
+
+  .item {
+    @apply text-white text-xl;
+  }
+}
