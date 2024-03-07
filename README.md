@@ -1,6 +1,6 @@
 # Gulp4 Template
 
-This is a Gulp 4 project template designed to streamline development with support for Pug, SCSS, TailwindCSS, and TypeScript. It also includes image optimization capabilities.
+This is a Gulp 4 project template designed to streamline development with support for Pug, Scss, TailwindCSS, and TypeScript. It also includes image optimization capabilities.
 
 ## 📦 Compilation
 
